@@ -11,6 +11,8 @@ Route::middleware(['auth', 'verified'])->get('/home',function(){
     return view('home');
 })->name('home');
 
+Route::view('profile/edit','profile.edit')->name('profile.edit')->middleware(['auth','verified']);
+
 
 
 

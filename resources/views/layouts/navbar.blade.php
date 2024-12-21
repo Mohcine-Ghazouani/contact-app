@@ -17,10 +17,10 @@
                         
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                {{auth()->user()->name}}
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><button type="submit" class="dropdown-item">LogOut</button></li>
                             </ul>
