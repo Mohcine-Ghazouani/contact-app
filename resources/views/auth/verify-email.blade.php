@@ -24,7 +24,7 @@
         @endif
         <div class="container">
 
-            <h6>Thanks for signing up! Before getting started, please verify your email address by clicking on the link we just emailed to you.</h6>
+            <h6>please verify your email address by clicking on the link we just emailed to you.</h6>
             <h6>If you didn't receive the email, we will gladly send you another.</h6>
             
             <input class="btn btn-primary" type="submit" value="Resend Verification Email" />

@@ -25,11 +25,6 @@
                 Your profile has been updated.
             </div>
         @endif
-        @if(session('status'))
-            <div class="alert alert-success">
-                {{session('status')}}
-            </div>
-        @endif
         <div class="container">
             <label class="form-label">Name</label>
             <input type="text" class="form-control" name="name" value="{{ old('name',auth()->user()->name)}}"/>

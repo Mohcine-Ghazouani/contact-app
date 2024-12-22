@@ -13,6 +13,7 @@ Route::middleware(['auth', 'verified'])->get('/home',function(){
 
 Route::view('profile/edit','profile.edit')->name('profile.edit')->middleware(['auth','verified']);
 
+Route::view('profile/password','profile.password')->name('profile.password')->middleware(['auth','verified']);
 
 
 

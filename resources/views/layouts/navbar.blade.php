@@ -21,7 +21,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="{{route('profile.password')}}">Update Password</a></li>
                                 <li><button type="submit" class="dropdown-item">LogOut</button></li>
                             </ul>
                         </li>
