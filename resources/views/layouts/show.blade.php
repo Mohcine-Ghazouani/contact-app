@@ -8,7 +8,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="bg-body-secondary">
-@include('layouts.navbar')
+@include('components.navbar')
 <div class="container border p-3 mt-3 rounded bg-white">
     <div class="navbar navbar-expand-lg navbar-light bg-primary rounded">
         <div class="container-fluid">

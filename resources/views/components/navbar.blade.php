@@ -57,21 +57,12 @@
            
             <a class="nav-link" href="/home">Accueil</a>
             <a class="nav-link" href="/list">Contacts</a>
+            <a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                {{auth()->user()->name}}
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a></li>
-                <li>
-                    <form class="d-flex mt-3" action="{{route('logout')}}" method="POST">
-                    @csrf
-                        <button type="submit" class="dropdown-item">LogOut</button>
-                    </form>
-                </li>
-            </ul>
-          </li>
+          <form class="d-flex mt-3" action="{{route('logout')}}" method="POST">
+            @csrf
+            <button type="submit" class="btn btn-outline-danger">LogOut</button>
+          </form>
         </ul>
         
       </div>

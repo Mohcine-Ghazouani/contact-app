@@ -14,7 +14,7 @@
 <body class="bg-body-secondary">
 
 
-    @include('layouts.navbar')
+@include('components.navbar')
     
     
     <div class="container-fluid border p-2 mt-5 rounded bg-white" style="width: 75%;">

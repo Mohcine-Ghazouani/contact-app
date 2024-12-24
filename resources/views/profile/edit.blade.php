@@ -12,7 +12,7 @@
 </head>
 
 <body class="bg-body-secondary">
-@include('layouts.navbar')
+@include('components.navbar')
 <div class="container-fluid border p-2 mt-2 rounded bg-white" style="width: 75%;">
     <form action="{{route('user-profile-information.update')}}" method="POST">
         @csrf
@@ -51,6 +51,13 @@
     </form>
 </div>
 @include('profile.password')
+<div class="container-fluid border p-2 mt-2 mb-2 rounded bg-white" style="width: 75%;">
+
+    <form class="d-flex mt-3" action="{{route('logout')}}" method="POST">
+        @csrf
+        <button type="submit" class="btn btn-danger">LogOut</button>
+    </form>
+</div>
 </body>
 
 </html>

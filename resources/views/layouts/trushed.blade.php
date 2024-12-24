@@ -17,7 +17,7 @@
 </head>
 
 <body class="bg-body-secondary">
-@include('layouts.navbar')
+@include('components.navbar')
 
 <div class="container border p-3 mt-3 rounded bg-white">
     <div class="navbar navbar-expand-lg navbar-light bg-primary rounded">
