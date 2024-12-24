@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand text-danger" href="/">Contact App</a>
+            <a class="navbar-brand text-primary " href="/">Home</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 </ul>
             </div>

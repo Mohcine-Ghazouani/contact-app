@@ -10,21 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
 </head>
 
 <body class="bg-body-secondary">
-    @include('nav')
-
-    <div class="container border p-5 mt-5 rounded bg-white" style="width: 50%;">
-        <div class="text-center p-5">
-            <h1>Welcome to contact app page </h1>
-            <p class="lead">Join us today to explore amazing features and opportunities.</p>
-                    <br>
-            <a href="https://theuselessweb.com/" class="btn btn-outline-secondary">
-                Learn more about us
-            </a>
-        </div>
-    </div>
+    @include('components.HomeNav')
+    @include('components.homeCart')
+    
     <footer class="bg-dark text-white text-center py-3 fixed-bottom">
         <div class="container">
             <p class="mb-0">© 2024 Your Company Name. All rights reserved.</p>

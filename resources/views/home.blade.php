@@ -15,15 +15,15 @@
 
 
     @include('layouts.navbar')
-
     
-    <div class="container border p-5 mt-5 rounded bg-white" style="width: 50%;">
-        <div class="text-center p-5">
+    
+    <div class="container-fluid border p-2 mt-5 rounded bg-white" style="width: 75%;">
+        <div class="text-center p-2">
             <h1>Welcome {{auth()->user()->name}}</h1>
             <p class="lead">explore amazing features and opportunities.</p>
                     
-            <a href="/list" class="btn btn-outline-primary btn-lg ">Contacts</a>
-            <a href="form" class="btn btn-outline-success btn-lg">Add Contact</a>
+            <a href="/list" class="btn btn-outline-primary">Contacts</a>
+            <a href="form" class="btn btn-outline-success">Add Contact</a>
         </div>
     </div>
 

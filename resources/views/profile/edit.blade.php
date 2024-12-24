@@ -13,7 +13,7 @@
 
 <body class="bg-body-secondary">
 @include('layouts.navbar')
-<div class="container border p-3 mt-5 rounded bg-white" style="width: 30%;">
+<div class="container-fluid border p-2 mt-2 rounded bg-white" style="width: 75%;">
     <form action="{{route('user-profile-information.update')}}" method="POST">
         @csrf
         @method('PUT')
@@ -50,6 +50,7 @@
         </div>
     </form>
 </div>
+@include('profile.password')
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 
 <body class="bg-body-secondary">
 @include('layouts.navbar')
-<div class="container border p-4 mt-5 rounded bg-white" style="width: 50%;">
+<div class="container-fluid border p-2 mt-5 rounded bg-white" style="width: 75%;">
     <form action="{{route('verification.send')}}" method="POST" >
         @csrf
         <div class="text-center">

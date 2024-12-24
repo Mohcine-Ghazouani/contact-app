@@ -12,8 +12,8 @@
     />
 </head>
 <body class="bg-body-secondary">
-    @include('nav')
-    <div class="container border p-3 mt-5 rounded bg-white" style="width: 30%;">
+@include('components.HomeNav')
+    <div class="container-fluid border p-2 mt-5 rounded bg-white" style="width: 75% ;">
         <form action="{{route('register')}}" method="post">
             @csrf
             <div class="text-center">

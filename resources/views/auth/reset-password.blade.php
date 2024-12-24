@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 </head>
-@include('nav')
+@include('components.HomeNav')
 <body class="bg-body-secondary">
     <div class="container border p-3 mt-5 rounded bg-white" style="width: 30%;">
         <form method="POST" action="{{route('password.update')}}">

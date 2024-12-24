@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-body-secondary">
-@include('nav')
+@include('components.HomeNav')
     <div class="container border p-4 mt-5 rounded bg-white" style="width: 30%;">
         
         <div class="mb-4 text-center">
