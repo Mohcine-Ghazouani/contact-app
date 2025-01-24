@@ -10,38 +10,14 @@
       </ul>
     </div>
             
-    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-      Link
-    </a>
-
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-        </div>
-        <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+   
 
 
 
 
     <form class="d-flex" action="{{route('logout')}}" method="POST">
     @csrf
-      <nav class="-mx-3 flex flex-1 justify-end">
+      <nav class="flex justify-end flex-1 -mx-3">
                    
         <ul class="navbar-nav">
                           
@@ -88,7 +64,7 @@
             <a class="nav-link" href="/list">Contacts</a>
             <a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a>
           </li>
-          <form class="d-flex mt-3" action="{{route('logout')}}" method="POST">
+          <form class="mt-3 d-flex" action="{{route('logout')}}" method="POST">
             @csrf
             <button type="submit" class="btn btn-outline-danger">LogOut</button>
           </form>

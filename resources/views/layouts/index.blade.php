@@ -17,8 +17,8 @@
     
     @include('components.navbar')
 
-    <div class="container border p-3 mt-3 rounded bg-white">
-        <div class="navbar navbar-expand-lg navbar-light bg-primary rounded">
+    <div class="container p-3 mt-3 bg-white border rounded">
+        <div class="rounded navbar navbar-expand-lg navbar-light bg-primary">
             <div class="container-fluid">
                 <h1 class="navbar-brand text-light"  href="#">All Contacts </h1>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">

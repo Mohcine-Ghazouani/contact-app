@@ -17,8 +17,8 @@
 @include('components.navbar')
     
     
-    <div class="container-fluid border p-2 mt-5 rounded bg-white" style="width: 75%;">
-        <div class="text-center p-2">
+    <div class="p-2 mt-5 bg-white border rounded container-fluid" style="width: 75%;">
+        <div class="p-2 text-center">
             <h1>Welcome {{auth()->user()->name}}</h1>
             <p class="lead">explore amazing features and opportunities.</p>
                     
